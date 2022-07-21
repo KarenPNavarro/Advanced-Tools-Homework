@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -102,4 +103,16 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+@media (max-width: 900px) {
+  .about {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 700px) {
+  .about {
+    font-size: 60px;
+  }
 }
